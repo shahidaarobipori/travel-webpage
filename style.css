@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --heading-text-primary-color: #181E4B;
+    --text-primary-color: #5E6282;
+}
+
+section{
+    margin-bottom: 100px;
+}
+.section-title{
+    color: var(--text-primary-color);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-heading{
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+    text-transform: capitalize;}
+
+/* ==================================== Category Section Start ======================================= */
+
+.header{
+     color: #DF6951;
+    font-family: Poppins;
+    font-size: 18.048px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; 
+
+     }
+    .container h2{
+        color: var(--3rd, #14183E);
+        font-family: Volkhov;
+        font-size: 75.801px;
+        /* font-style: normal;
+        font-weight: 700;
+        line-height: 80.313px; /* 105.952% */
+        letter-spacing: -3.032px;
+    }
+    .container p{width: 430.439px;
+    }
+
+    .btn{
+        border-radius: 9.024px;
+        background: var(--yellow, #F1A501);
+        box-shadow: 0px 18.048px 31.584px 0px rgba(241, 165, 1, 0.15)
+    }
+    #hero{
+        background-image: url(./img/Decore.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    } 
+
+
+
+/* ==================================== Hero Section End ======================================= */
+
+/* ==================================== Category Section Start ======================================= */
+
+#category .container{
+    background-image: url("./images/category-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.category-item{
+    text-align: center;
+    height: 250px;
+    padding: 24px;
+}
+
+.category-item:hover{
+    border-radius: 36px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.category-item i{
+    font-size: 55px;
+}
+.category-item h5{
+    color: var(--text-heading-color, #1E1D4C);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-item p{
+    color: var(--TEXT-CLR, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+/* ==================================== Category Section End ======================================= */
+s
+
+/* ==================================== Destination Section Start ======================================= */
+
+#destinations .container{
+    background-image: url("./images/destinations-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#destinations .section-heading{
+    text-align: center;
+}
+.destination-card{
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 24px;
+
+}
+.destination-card img{
+    border-radius: 24px 24px 0 0;
+    width: 100%;
+}
+
+.destination-body{
+    padding: 27px 20px 42px 20px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.destination-location{
+    color: var(--text-primary-color);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 22.41px */
+}
+
+.destination-time svg{
+    fill: var(--text-primary-color);
+    margin-right: 14px;
+}
+
+.destination-time span{
+    color: var(--text-primary-color);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 19.92px */
+}
+/* ==================================== Destination Section End ======================================= */
+
